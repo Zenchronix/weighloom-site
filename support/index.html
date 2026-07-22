@@ -10,82 +10,53 @@
 </head>
 <body>
     <a class="skip-link" href="#content">跳到正文</a>
-
-    <header class="topbar">
-        <div class="topbar__inner">
-            <a class="brand" href="../" aria-label="Weighloom 首页">Weighloom</a>
-            <a class="language-link" href="en/" lang="en" hreflang="en">English</a>
-        </div>
-    </header>
+    <header class="topbar"><div class="topbar__inner"><a class="brand" href="../" aria-label="Weighloom 首页">Weighloom</a><a class="language-link" href="en/" lang="en" hreflang="en">English</a></div></header>
 
     <main id="content" class="page">
         <section class="hero" aria-labelledby="page-title">
-            <div>
-                <p class="eyebrow">适用于版本 1.0.0</p>
-                <h1 id="page-title">用户支持</h1>
-                <p class="lead">查找常见问题的处理方法，或者向开发者提交问题与建议。</p>
-            </div>
-
+            <div><p class="eyebrow">适用于版本 1.0.0</p><h1 id="page-title">用户支持</h1><p class="lead">常见问题、购买恢复、隐私和健康信息入口。</p></div>
             <dl class="meta" aria-label="支持信息">
-                <div class="meta__row">
-                    <dt>支持平台</dt>
-                    <dd>iPhone / iPad</dd>
-                </div>
-                <div class="meta__row">
-                    <dt>数据模式</dt>
-                    <dd>本机离线</dd>
-                </div>
-                <div class="meta__row">
-                    <dt>隐私政策</dt>
-                    <dd><a href="../privacy/">查看</a></dd>
-                </div>
+                <div class="meta__row"><dt>平台</dt><dd>iPhone / iPad</dd></div>
+                <div class="meta__row"><dt>数据模式</dt><dd>仅本机</dd></div>
+                <div class="meta__row"><dt>联系邮箱</dt><dd><a href="mailto:zhuxiaolei00@163.com">发送邮件</a></dd></div>
             </dl>
         </section>
 
         <div class="policy">
-            <section class="policy-section" aria-labelledby="section-01">
-                <div class="section-number" aria-hidden="true">01</div>
-                <div>
-                    <h2 id="section-01">记录与数据</h2>
-                    <p>体重、身高、目标体重和设置默认只保存在当前设备。应用没有账号或云端同步功能。</p>
-                    <p>更换设备、卸载应用或删除全部记录前，请先在设置中导出本地备份。</p>
-                </div>
-            </section>
+            <section class="policy-section" aria-labelledby="section-01"><div class="section-number" aria-hidden="true">01</div><div>
+                <h2 id="section-01">记录与备份</h2>
+                <p>体重、备注、身高、目标体重和饮水记录保存在当前设备，不启用 CloudKit 自动同步。更换设备、卸载应用或删除记录前，请先在设置中导出本地备份；在新设备上可通过“从备份恢复”手动导入。</p>
+            </div></section>
 
-            <section class="policy-section" aria-labelledby="section-02">
-                <div class="section-number" aria-hidden="true">02</div>
-                <div>
-                    <h2 id="section-02">提醒没有出现</h2>
-                    <p>请先确认应用内的“每日称重提醒”已经开启，再前往系统设置检查 Weighloom 的通知权限。提醒通过本地通知运行，不需要联网。</p>
-                </div>
-            </section>
+            <section class="policy-section" aria-labelledby="section-02"><div class="section-number" aria-hidden="true">02</div><div>
+                <h2 id="section-02">提醒没有出现</h2>
+                <p>确认应用内对应的称重、饮水或周/月报提醒已经开启，再到系统设置检查 Weighloom 的通知权限。提醒通过本地通知运行，不需要联网。周报/月报为 Pro 功能；基础饮水提醒对所有用户开放。</p>
+            </div></section>
 
-            <section class="policy-section" aria-labelledby="section-03">
-                <div class="section-number" aria-hidden="true">03</div>
-                <div>
-                    <h2 id="section-03">趋势与分析</h2>
-                    <p>同一天可以记录多次。跨天趋势和变化分析使用当天最后一次记录作为代表值。BMI 和体重统计仅作一般参考，不能代替医疗诊断。</p>
-                </div>
-            </section>
+            <section class="policy-section" aria-labelledby="section-03"><div class="section-number" aria-hidden="true">03</div><div>
+                <h2 id="section-03">Apple 健康活动卡路里</h2>
+                <p>“活动卡路里”只读 Apple 健康中的活动能量。若没有数据，请确认设备支持 Apple 健康、当天已有活动能量记录，并在系统健康权限中允许 Weighloom 读取。应用不会向 Apple 健康写入数据。</p>
+            </div></section>
 
-            <section class="policy-section" aria-labelledby="section-04">
-                <div class="section-number" aria-hidden="true">04</div>
-                <div>
-                    <h2 id="section-04">联系支持</h2>
-                    <p>如需获得帮助，请发送电子邮件至 <a href="mailto:zhuxiaolei00@163.com">zhuxiaolei00@163.com</a>。</p>
-                    <p>也可以通过 Weighloom 的公开支持请求入口联系开发者。</p>
-                    <p><a href="https://github.com/Zenchronix/weighloom-site/issues/new?title=Weighloom%20Support%3A%20" rel="noreferrer">提交支持请求</a></p>
-                    <div class="notice">请不要在公开请求中填写体重记录、备份文件、身份信息或其他敏感个人数据。建议附上应用版本、系统版本、设备类型和问题复现步骤。</div>
-                </div>
-            </section>
+            <section class="policy-section" aria-labelledby="section-04"><div class="section-number" aria-hidden="true">04</div><div>
+                <h2 id="section-04">Pro 购买与恢复</h2>
+                <p>月度和年度方案会自动续订，永久方案为一次性购买。所有付款由 Apple 处理。在设置中打开“Weighloom Pro”，点击“恢复购买”可恢复同一 Apple 账户下的有效权益；订阅可在系统 Apple 账户的订阅管理中取消。</p>
+            </div></section>
+
+            <section class="policy-section" aria-labelledby="section-05"><div class="section-number" aria-hidden="true">05</div><div>
+                <h2 id="section-05">趋势、BMI 与健康资料</h2>
+                <p>同一天可记录多次，跨天趋势使用当天最后一次记录作为代表值。BMI、体重趋势、饮水进度、个人波动基线和食物资料均为一般健康参考，不替代医疗诊断或专业建议。请查看<a href="../safety/">健康与安全说明及资料来源</a>。</p>
+            </div></section>
+
+            <section class="policy-section" aria-labelledby="section-06"><div class="section-number" aria-hidden="true">06</div><div>
+                <h2 id="section-06">联系支持</h2>
+                <p>请发送邮件至 <a href="mailto:zhuxiaolei00@163.com">zhuxiaolei00@163.com</a>，或通过<a href="https://github.com/Zenchronix/weighloom-site/issues/new?title=Weighloom%20Support%3A%20" rel="noreferrer">公开支持请求入口</a>联系开发者。</p>
+                <div class="notice">请不要在公开请求中填写体重记录、备份文件、身份信息或其他敏感个人数据。建议仅附应用版本、系统版本、设备类型和问题复现步骤。</div>
+                <p><a href="../privacy/">查看隐私政策</a></p>
+            </div></section>
         </div>
     </main>
 
-    <footer class="footer">
-        <div class="footer__inner">
-            <p>Weighloom</p>
-            <p>版本 1.0.0 · 用户支持</p>
-        </div>
-    </footer>
+    <footer class="footer"><div class="footer__inner"><p>Weighloom</p><p>版本 1.0.0 · 用户支持</p></div></footer>
 </body>
 </html>

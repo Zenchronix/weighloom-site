@@ -3,89 +3,60 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Weighloom support, frequently asked questions, and feedback.">
+    <meta name="description" content="Weighloom support, frequently asked questions, purchase restoration, and feedback.">
     <meta name="robots" content="index,follow">
     <title>Support | Weighloom</title>
     <link rel="stylesheet" href="../../privacy/privacy.css">
 </head>
 <body>
     <a class="skip-link" href="#content">Skip to support</a>
-
-    <header class="topbar">
-        <div class="topbar__inner">
-            <a class="brand" href="../../" aria-label="Weighloom home">Weighloom</a>
-            <a class="language-link" href="../" lang="zh-CN" hreflang="zh-CN">简体中文</a>
-        </div>
-    </header>
+    <header class="topbar"><div class="topbar__inner"><a class="brand" href="../../" aria-label="Weighloom home">Weighloom</a><a class="language-link" href="../" lang="zh-CN" hreflang="zh-CN">简体中文</a></div></header>
 
     <main id="content" class="page">
         <section class="hero" aria-labelledby="page-title">
-            <div>
-                <p class="eyebrow">For version 1.0.0</p>
-                <h1 id="page-title">Support</h1>
-                <p class="lead">Find answers to common questions or send an issue or suggestion to the developer.</p>
-            </div>
-
+            <div><p class="eyebrow">For version 1.0.0</p><h1 id="page-title">Support</h1><p class="lead">Answers about data, reminders, Apple Health, purchases, and health information.</p></div>
             <dl class="meta" aria-label="Support information">
-                <div class="meta__row">
-                    <dt>Platforms</dt>
-                    <dd>iPhone / iPad</dd>
-                </div>
-                <div class="meta__row">
-                    <dt>Data mode</dt>
-                    <dd>Offline on-device</dd>
-                </div>
-                <div class="meta__row">
-                    <dt>Privacy policy</dt>
-                    <dd><a href="../../privacy/en/">View</a></dd>
-                </div>
+                <div class="meta__row"><dt>Platforms</dt><dd>iPhone / iPad</dd></div>
+                <div class="meta__row"><dt>Data mode</dt><dd>On device only</dd></div>
+                <div class="meta__row"><dt>Contact</dt><dd><a href="mailto:zhuxiaolei00@163.com">Email support</a></dd></div>
             </dl>
         </section>
 
         <div class="policy">
-            <section class="policy-section" aria-labelledby="section-01">
-                <div class="section-number" aria-hidden="true">01</div>
-                <div>
-                    <h2 id="section-01">Entries and data</h2>
-                    <p>Your weight, height, target weight, and settings are stored only on your current device by default. The app has no accounts or cloud sync.</p>
-                    <p>Export a local backup from Settings before changing devices, uninstalling the app, or deleting all entries.</p>
-                </div>
-            </section>
+            <section class="policy-section" aria-labelledby="section-01"><div class="section-number" aria-hidden="true">01</div><div>
+                <h2 id="section-01">Entries and backups</h2>
+                <p>Weight entries, notes, height, target weight, and water entries stay on your current device. The first-release build does not enable automatic CloudKit sync. Export a local backup from Settings before changing devices, uninstalling the app, or deleting entries, then restore it manually on the new device.</p>
+            </div></section>
 
-            <section class="policy-section" aria-labelledby="section-02">
-                <div class="section-number" aria-hidden="true">02</div>
-                <div>
-                    <h2 id="section-02">A reminder did not appear</h2>
-                    <p>Confirm that Daily Weigh-In Reminder is enabled in the app, then check Weighloom’s notification permission in system Settings. Reminders use local notifications and do not require an internet connection.</p>
-                </div>
-            </section>
+            <section class="policy-section" aria-labelledby="section-02"><div class="section-number" aria-hidden="true">02</div><div>
+                <h2 id="section-02">A reminder did not appear</h2>
+                <p>Confirm that the relevant weigh-in, hydration, or weekly/monthly report reminder is enabled in the app, then check Weighloom’s notification permission in system Settings. Reminders are scheduled locally and do not require an internet connection. Reports are a Pro feature; basic hydration reminders are available to everyone.</p>
+            </div></section>
 
-            <section class="policy-section" aria-labelledby="section-03">
-                <div class="section-number" aria-hidden="true">03</div>
-                <div>
-                    <h2 id="section-03">Trends and analysis</h2>
-                    <p>You can add multiple entries on the same day. Cross-day trends and change analysis use the last entry of each day. BMI and weight statistics are general reference information and do not replace medical advice or diagnosis.</p>
-                </div>
-            </section>
+            <section class="policy-section" aria-labelledby="section-03"><div class="section-number" aria-hidden="true">03</div><div>
+                <h2 id="section-03">Apple Health Active Calories</h2>
+                <p>Active Calories reads Active Energy from Apple Health only. If no data appears, confirm that your device supports Apple Health, that Active Energy has been recorded for the day, and that Weighloom has read permission. The app never writes to Apple Health.</p>
+            </div></section>
 
-            <section class="policy-section" aria-labelledby="section-04">
-                <div class="section-number" aria-hidden="true">04</div>
-                <div>
-                    <h2 id="section-04">Contact support</h2>
-                    <p>For support, email <a href="mailto:zhuxiaolei00@163.com">zhuxiaolei00@163.com</a>.</p>
-                    <p>You can also contact the developer through Weighloom’s public support-request channel.</p>
-                    <p><a href="https://github.com/Zenchronix/weighloom-site/issues/new?title=Weighloom%20Support%3A%20" rel="noreferrer">Submit a support request</a></p>
-                    <div class="notice">Do not include weight entries, backup files, identity information, or other sensitive personal data in a public request. Include the app version, system version, device type, and steps to reproduce the issue.</div>
-                </div>
-            </section>
+            <section class="policy-section" aria-labelledby="section-04"><div class="section-number" aria-hidden="true">04</div><div>
+                <h2 id="section-04">Pro purchases and restoration</h2>
+                <p>Monthly and yearly plans renew automatically; Lifetime is a one-time purchase. Apple processes all payments. Open Weighloom Pro in Settings and tap Restore Purchases to restore an active entitlement for the same Apple Account. Manage or cancel subscriptions in the system Apple Account subscription settings.</p>
+            </div></section>
+
+            <section class="policy-section" aria-labelledby="section-05"><div class="section-number" aria-hidden="true">05</div><div>
+                <h2 id="section-05">Trends, BMI, and health information</h2>
+                <p>You can add multiple entries per day; cross-day trends use the day’s last entry. BMI, weight trends, hydration progress, the personal fluctuation baseline, and food information are general wellness references and do not replace medical advice or diagnosis. See <a href="../../safety/en/">Health &amp; Safety Information and Sources</a>.</p>
+            </div></section>
+
+            <section class="policy-section" aria-labelledby="section-06"><div class="section-number" aria-hidden="true">06</div><div>
+                <h2 id="section-06">Contact support</h2>
+                <p>Email <a href="mailto:zhuxiaolei00@163.com">zhuxiaolei00@163.com</a>, or use the <a href="https://github.com/Zenchronix/weighloom-site/issues/new?title=Weighloom%20Support%3A%20" rel="noreferrer">public support-request channel</a>.</p>
+                <div class="notice">Do not include weight entries, backup files, identity information, or other sensitive personal data in a public request. Include only the app version, system version, device type, and steps to reproduce the issue.</div>
+                <p><a href="../../privacy/en/">View the Privacy Policy</a></p>
+            </div></section>
         </div>
     </main>
 
-    <footer class="footer">
-        <div class="footer__inner">
-            <p>Weighloom</p>
-            <p>Version 1.0.0 · Support</p>
-        </div>
-    </footer>
+    <footer class="footer"><div class="footer__inner"><p>Weighloom</p><p>Version 1.0.0 · Support</p></div></footer>
 </body>
 </html>
